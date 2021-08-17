@@ -14,9 +14,22 @@ const Hero = (props) => (
         Adam El-Hajj
       </SectionTitle>
       <SectionText>
-        My purpose goes in here.My purpose goes in here.My purpose goes in here.My purpose goes in here.My purpose goes in here.My purpose goes in here.My purpose goes in here.My purpose goes in here.My purpose goes in here.My purpose goes in here.
+        I am an aspiring software developer based in Bahrain working towards becoming a Full Stack Developer. <br /> <br />
+        Currently, I am working remotely as an intern at ImageGrafix. <br /> <br />
       </SectionText>
-      <Button onClick={() => window.location ='https://google.com'}>Resume</Button>
+      <br />
+      <br />
+      <Button onClick={() => window.location ='https://pdfhost.io/v/yJfwr.AAG_ASPIRING_Software_DEVELOPER.pdf'}>Resume</Button>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </LeftSection>
   </Section>
 );

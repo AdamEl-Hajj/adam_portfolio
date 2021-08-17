@@ -1,23 +1,20 @@
 import React from 'react';
-import { DiFirebase, DiNodejs, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiNodejs, DiPython, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      Ive worked with a range of technologies in the web dev world
-    </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem"/>
         <ListContainer>
         <ListTitle>Front-end</ListTitle>
         <ListParagraph>
-          Experience with <br />
-          React.js
+          React <br />
+          HTML <br />
+          CSS
         </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -26,22 +23,27 @@ const Technologies = () =>  (
         <ListContainer>
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
-          Experience with <br />
-          Node.js and Databases
+          Node <br />
+          SQL <br />
+          MongoDB <br />
+          PHP <br />
         </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem"/>
+        <DiPython size="3rem"/>
         <ListContainer>
-        <ListTitle>UI/UX</ListTitle>
+        <ListTitle>Languages & Tools</ListTitle>
         <ListParagraph>
-          Experience with <br />
-          Tools like Figma
+          Java <br />
+          Python <br />
+          C# <br />
+          Git <br />
         </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider />
   </Section>
 );
 

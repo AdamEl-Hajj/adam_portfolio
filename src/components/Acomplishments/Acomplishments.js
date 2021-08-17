@@ -13,17 +13,22 @@ const data = [
 //could be how many projects ive built
 
 const Acomplishments = () => (
-  <Section>
-    <SectionTitle>Personal Accomplishments</SectionTitle>
-    <Boxes>
-      {data.map((card, index) => (
-        <Box key={index}>
-          <BoxNum>{card.number}</BoxNum>
-          <BoxText>{card.text}</BoxText>
-        </Box>
-      ))}
-    </Boxes>
-  </Section>
+  <div>
+    
+  </div>
 );
 
+
+
+// <Section>
+  //   <SectionTitle>Personal Accomplishments</SectionTitle>
+  //   <Boxes>
+  //     {data.map((card, index) => (
+  //       <Box key={index}>
+  //         <BoxNum>{card.number}</BoxNum>
+  //         <BoxText>{card.text}</BoxText>
+  //       </Box>
+  //     ))}
+  //   </Boxes>
+  // </Section>
 export default Acomplishments;

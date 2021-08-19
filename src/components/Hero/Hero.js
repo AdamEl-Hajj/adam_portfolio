@@ -15,7 +15,10 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
         I am an aspiring software developer based in Bahrain working towards becoming a Full Stack Developer. <br /> <br />
-        Currently, I am working remotely as an intern at ImageGrafix. <br /> <br />
+        Currently, I am working remotely as a Software Intern at 
+        <a href="https://imagegrafix.in/"> ImageGrafix</a>
+        <br /> 
+        <br />
       </SectionText>
       <br />
       <br />

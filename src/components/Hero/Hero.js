@@ -16,13 +16,13 @@ const Hero = (props) => (
       <SectionText>
         I am an aspiring software developer based in Bahrain working towards becoming a Full Stack Developer. <br /> <br />
         Currently, I am working remotely as a Software Intern at 
-        <a href="https://imagegrafix.in/"> ImageGrafix</a>
+        <a href="https://hexagonppm.com/"> Hexagon PPM</a>
         <br /> 
         <br />
       </SectionText>
       <br />
       <br />
-      <Button onClick={() => window.location ='https://pdfhost.io/v/yJfwr.AAG_ASPIRING_Software_DEVELOPER.pdf'}>Resume</Button>
+      <Button onClick={() => window.location ='https://pdfhost.io/v/lwt5vsAQN_CV3_Adam_ElHajj'}>Resume</Button>
       <br />
       <br />
       <br />
